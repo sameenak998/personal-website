@@ -1,0 +1,29 @@
+/* Center content container but keep text left-aligned */
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.centered-content > * {
+  width: 100%;
+  max-width: 56rem; /* approximately mw7 */
+}
+
+.content-text {
+  text-align: left;
+  max-width: 56rem;
+}
+
+.content-text p,
+.content-text h1,
+.content-text h2,
+.content-text h3,
+.content-text h4,
+.content-text h5,
+.content-text h6,
+.content-text li,
+.content-text blockquote {
+  text-align: left;
+}

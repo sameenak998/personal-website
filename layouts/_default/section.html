@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="hero-and-content">
+    <div class="home-content">
+        {{ .Content }}
+                {{ if eq .Section "contact" }}
+                <div style="margin-top:2.5rem;">
+                    <a href="mailto:sameena.koirala@northwestern.edu" style="margin-right:2rem; font-weight:bold; display:inline-block;">
+                        <img src="/envelope-solid.png" alt="Email" style="width:1.5em; height:1.5em; vertical-align:middle; margin-right:0.3em;">sameena.koirala@northwestern.edu
+                    </a>
+                    <a href="https://www.linkedin.com/in/sameena-koirala" target="_blank" style="margin-right:2rem; font-weight:bold; display:inline-block;">
+                        <img src="/linkedin-brands-solid.png" alt="LinkedIn" style="width:1.5em; height:1.5em; vertical-align:middle; margin-right:0.3em;">linkedin.com/in/sameena-koirala
+                    </a>
+                    <a href="https://github.com/sameenak998" target="_blank" style="margin-right:2rem; font-weight:bold; display:inline-block;">
+                        <img src="/github-brands-solid.png" alt="GitHub" style="width:1.5em; height:1.5em; vertical-align:middle; margin-right:0.3em;">github.com/sameenak998
+                    </a>
+                </div>
+                {{ end }}
+                <div style="text-align:center; margin-top:1.5rem;">
+                    <a href="/" style="font-weight:bold;">Back to Homepage</a>
+                </div>
+    </div>
+</div>
+
+<style>
+    .home-content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+</style>
+{{ end }}

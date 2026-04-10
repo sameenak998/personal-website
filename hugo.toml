@@ -1,0 +1,19 @@
+baseURL = 'http://localhost:1313/'
+locale = 'en-us'
+title = 'Sameena Koirala'
+theme = 'ananke'
+
+[params]
+  description = 'A personal website built with Hugo and Ananke theme'
+  author = 'Sameena Koirala'
+  custom_css = ['css/custom.css']
+
+[[menu.main]]
+  name = 'Resume'
+  url = '/resume'
+  weight = 10
+
+[[menu.main]]
+  name = 'Contact'
+  url = '/contact'
+  weight = 20
