@@ -20,7 +20,7 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l" style="position: relative; background-image: url('{{ with .Params.background }}{{ . | absURL }}{{ end }}'); background-size: cover; background-position: center; min-height: 320px;">
+    <div class="pb3-m pb6-l" style="position: relative; background-image: url('{{ with .Params.background }}{{ . | relURL }}{{ end }}'); background-size: cover; background-position: center; min-height: 320px;">
       <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.111); z-index: 1;"></div>
       <div style="position: relative; z-index: 2; min-height: 400px;">
         {{ partials.Include "site-navigation.html" . }}
