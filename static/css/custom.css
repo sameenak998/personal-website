@@ -27,3 +27,12 @@
 .content-text blockquote {
   text-align: left;
 }
+
+/* Make all links blue, including visited links */
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
