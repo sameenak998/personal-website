@@ -75,4 +75,4 @@ Koirala J, Tyagi I, Guntupalli L, **Koirala S**, Chapagain U, Quarshie C, Akram 
 
 ## Download Full CV
 
-[Download CV as PDF](/KoiralaS_CV_2026.pdf)
+[Download CV as PDF](/KoiralaS_CV.pdf)
